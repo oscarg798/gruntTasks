@@ -1,0 +1,10 @@
+.my-div-mix {
+  background: #ffffff;
+  font-size: 1em;
+  width: 100;
+  height: 100;
+}
+.my-div-mix.with-color {
+  color: #000000;
+  margin: 0 auto;
+}

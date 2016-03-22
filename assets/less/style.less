@@ -1,0 +1,15 @@
+@background:#ffffff;
+.my-div(@width: 25px; @height:25px){
+  background: @background;
+  font-size: 1em;
+  width: @width;
+  height: @height;
+}
+
+.my-div-mix{
+  .my-div(100,100);
+  &.with-color{
+    color:#000000;
+    margin: 0 auto;
+  }
+}
